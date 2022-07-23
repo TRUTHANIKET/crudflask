@@ -93,7 +93,7 @@
         <th scope="col">No.</th>
         <th scope="col">TITLE</th>
         <th scope="col">DESC</th>
-        <th scope="col">TIME</th>
+        <!-- <th scope="col">TIME</th> -->
         <th scope="col">ACTIONS</th>
       </tr>
       {% endif %}
@@ -104,7 +104,7 @@
         <th scope="row">{{loop.index}}</th>
         <td>{{todo.content}}</td>
         <td>{{todo.detail}}</td>
-        <td>{{todo.date_created}}</td>
+        <!-- <td>{{todo.date_created}}</td> -->
         <td><a href="/edit/{{todo.sno}}" type="button" class="btn btn-outline-dark mx-1">Edit</a>
           <a href="/delete/{{todo.sno}}" type="button" class="btn btn-outline-danger mx-1">Delete</a>
         </td>

@@ -15,7 +15,7 @@ class Todo(db.Model):
     sno=db.Column(db.Integer ,primary_key=True)
     content=db.Column(db.String(300) ,nullable=False)
     detail=db.Column(db.String(500) ,nullable=False)
-    date_created = db.Column(db.DateTime ,default=datetime.utcnow)
+    # date_created = db.Column(db.DateTime ,default=datetime.utcnow)
 
     def __repr__(self) -> str:
         return f"{self.sno} - {self.content}"
