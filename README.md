@@ -1,3 +1,3 @@
 # crudflask
 crud using flask and web app with html css js blah blah
-![mad](https://user-images.githubusercontent.com/100013837/180604571-11dc7aa9-a3dc-40d3-be6c-3f222150d556.gif)
+![image](https://user-images.githubusercontent.com/100013837/180604601-a0ab2ac4-d75a-4456-bb20-d48c993a4a55.png)
