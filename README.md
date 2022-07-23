@@ -1,5 +1,5 @@
 # crudflask
-crud using flask and web app with html css js blah blah
+          crud using flask 
 
 
 
